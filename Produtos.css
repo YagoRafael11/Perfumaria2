@@ -1,5 +1,5 @@
 header{
-    background: #BBBBBB;
+    background: url("bg.jpg");
     padding: 20px 0;
 }
 
@@ -22,10 +22,16 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+
+}
+
+nav a:hover {
+    color: coral;
+    text-decoration: underline;
 
 }
 
@@ -34,6 +40,7 @@ nav a {
     margin: 0 auto;
     display: inline-flex;
     padding: 50px 0;
+    
      
 
 
@@ -47,6 +54,19 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.produtos li:hover {
+    border-color: coral;
+}
+
+.produtos li:active {
+    border-color: darkgreen;
+}
+.produtos li:hover h2 {
+    font-size: 60px;
 }
 
 .produtos h2 {
@@ -66,3 +86,44 @@ nav a {
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer {
+ text-align: center;
+ background: url("bg.jpg");
+ padding: 40px 0;
+
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0
+    
+}
+    
+       
+
+
+
+
+
+
+
+.imagem1 {
+    width: 20%;
+}
+
+.imagens {
+    width: 60%;
+}
+
+.copy {
+    width: 10%;
+}
+
+
+
+
+
+
+
