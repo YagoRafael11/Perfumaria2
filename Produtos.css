@@ -29,9 +29,40 @@ nav a {
 
 }
 
+.produtos {
+    width: 1300px;
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 50px 0;
+     
 
 
+}
 
-img {
-    width: 20%;
+.produtos li {
+
+    display: inline-block; 
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.descriçao {
+    font-size: 17px;
+  
+    
+}
+
+.preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
